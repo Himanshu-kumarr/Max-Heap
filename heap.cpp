@@ -108,6 +108,9 @@ void pop_elt(vector<ll>&heap){
 int main(){
     ll n,m,j,k,x,y,z,df,sum,l,h,w,mid,s1,s2,i,p,q,r,d,f,count,u;
     //for max heap;
+    //priority_queue<int> maxHeap;max-heap by default
+    //priority_queue<int, vector<int>, greater<int>> minHeap;
+
     vector<ll>heap;
     ll heapsize=0;
 
